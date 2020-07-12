@@ -1,0 +1,59 @@
+header{
+    width: 100%;
+    background-size: cover;
+    background-position: unset;
+    animation: animateimg 5s linear infinite;
+
+    &__text{
+    padding: 20px;
+    text-align: center;
+    font-size: 70;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right , rgba(255, 0, 0, 0.726), rgba(255, 255, 0, 0.692), rgba(0, 255, 255, 0.733), rgba(0, 255, 0, 0.699), rgba(48, 83, 8, 0.568));
+    -webkit-background-clip: text;
+    animation: animatetext 20s linear infinite;
+    background-size: 10000%;
+    }
+    @keyframes rotation {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(359deg);
+        }
+      }
+      
+      @keyframes animatetext{
+      
+          0%{
+              background-position: 0% 100%;
+          }
+          50%{
+              background-position: 100% 0%;
+          }
+          100%{
+              background-position: 0% 100%;
+          }
+      }
+      
+      @keyframes animateimg{
+      
+          0%{
+              background-image: url(https://cspmarketingsolutions.com/wp-content/uploads/2016/02/sos4kids-portfolio-header-background-1920x500.jpg);
+          }
+          25%{
+              background-image: url(https://cdn.hipwallpaper.com/i/13/93/qJKcV8.jpg);
+          }
+          50%{
+              background-image: url(https://www.everynation.org/wp-content/uploads/2018/02/Monthly-Website-Header-background.jpg);
+          }
+          75%{
+              background-image: url(https://precioustogod.org/wp-content/uploads/2017/03/background-1699452_1920-1920x500.jpg);
+          }
+          100%{
+              background-image: url(https://cspmarketingsolutions.com/wp-content/uploads/2016/02/sos4kids-portfolio-header-background-1920x500.jpg);
+          }
+      }
+}

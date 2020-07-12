@@ -1,0 +1,36 @@
+section{
+    &__section__containerSkill{
+        margin-left: 5%;
+        margin-top: 5%;
+        margin-bottom: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        
+    }
+    &__article__img{
+        width: 200px;
+        height: 280px;
+        margin: 20px;
+    }
+    &__article__skills{
+        width: 200px;
+        height: 280px;
+        margin: 20px;
+    }
+    &__container__download{
+        font-size: 30px;
+        background-color:rgba(48, 83, 8, 0.568);
+    }
+    @media screen and (min-width: 600px) {
+        .container__Aboutme {
+          margin-top: -280px;
+          margin-left: 250px;
+          margin-bottom: 280px;
+        }
+        .container__curriculum{
+          margin-top: -200px;
+          margin-left: 250px;
+        }
+    }
+}

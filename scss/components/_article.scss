@@ -1,0 +1,12 @@
+article{
+    &__article__principal{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    &__skills__img{
+        animation: rotation 15s infinite linear;
+        margin:30px;
+        width: 140px;
+        height: 140px;
+    }
+}
